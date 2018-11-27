@@ -1,0 +1,6 @@
+framework module MSRequest2 {
+  umbrella header "MSRequest2-umbrella.h"
+
+  export *
+  module * { export * }
+}

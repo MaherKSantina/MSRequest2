@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import MSRequest2
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        MSRequest2.request(urlString: "https://demo4427016.mockable.io/users") { (dict) in
+            print(dict)
+        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,4 +24,6 @@ class ViewController: UIViewController {
     }
 
 }
+
+
 
