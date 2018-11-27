@@ -1,5 +1,5 @@
 PODS:
-  - MSRequest2 (0.1.0)
+  - MSRequest2 (0.1.1)
 
 DEPENDENCIES:
   - MSRequest2 (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MSRequest2: 9a423816fcb0cc408bfbf1fed5763b2bbe95f6ae
+  MSRequest2: cc71eb6c6c0cbe25cf8a74e0cf7cdd9010c02843
 
 PODFILE CHECKSUM: 4d211ec9f19c86af78f511283c216fc96811c7fa
 

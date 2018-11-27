@@ -8,9 +8,11 @@
 import UIKit
 
 public class MSRequest2 {
-    public static func request(urlString: String, completion: (([String: Any]) -> Void)?) {
+    public static func request(urlString: String, method: String = "GET", completion: (([String: Any]) -> Void)?) {
         let url = URL(string: urlString)!
-        URLSession.shared.dataTask(with: url) { (data, response, error) in
+        var request = URLRequest(url: url)
+        request.httpMethod = method
+        URLSession.shared.dataTask(with: request) { (data, response, error) in
             guard let d = data else {
                 return
             }

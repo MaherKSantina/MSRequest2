@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4867AE43560DD14E276439A8C7067F54 /* MSRequest2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E514697E24B7528341255A6D5ADF4CBE /* MSRequest2-dummy.m */; };
-		69C52F4121AD44C600DB4D8E /* MSRequest2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C52F4021AD44C600DB4D8E /* MSRequest2.swift */; };
+		2367E9AC5ADABE68A32796D04D12F633 /* MSRequest2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5758337BFE5CC554FCA767F7BF9761A /* MSRequest2-dummy.m */; };
+		44A3F50A53D3774E504E0F687D8C9442 /* MSRequest2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7975C19DCEEACD4BEDA5A0D5EDF8F90F /* MSRequest2.swift */; };
 		72093EECDEF376A2412352738F69617F /* Pods-MSRequest2_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BBA19E6E01811978B56037F11915509 /* Pods-MSRequest2_Example-dummy.m */; };
 		865089BEC754E9339FEE8E570FD7C4DE /* Pods-MSRequest2_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B997A7C51B6853CCB343F0C62ECB3481 /* Pods-MSRequest2_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86AFF5E5AC3A87D7365F1FC0A536B506 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
@@ -16,7 +16,7 @@
 		ABE3527EF50C87A06D2B32B23CCE42D1 /* Pods-MSRequest2_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E249872598F4A09FEE384FE61C491E9B /* Pods-MSRequest2_Tests-dummy.m */; };
 		C0728F3CAD626CFFFF862F668737FC64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		E7ABE98D7A7AC52102E1B4398A7E669E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		EA319446AF0954A8F0E122A0C7C0764D /* MSRequest2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DDE62A8F4C7CCBD0EF7E551299099FB /* MSRequest2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA319446AF0954A8F0E122A0C7C0764D /* MSRequest2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A9D1A0B5A071E2C4BAEBC3DE3B64CC2F /* MSRequest2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,38 +40,38 @@
 		00A694C173FFC7FAB1C240C9FF555961 /* Pods-MSRequest2_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSRequest2_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		0AFF3ACBE80E4F0B6CA6AD321E4376F3 /* Pods-MSRequest2_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MSRequest2_Example-umbrella.h"; sourceTree = "<group>"; };
 		0CC2B72D8FE8166D07E2EB790008D29C /* Pods-MSRequest2_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MSRequest2_Example.modulemap"; sourceTree = "<group>"; };
-		0DDE62A8F4C7CCBD0EF7E551299099FB /* MSRequest2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSRequest2-umbrella.h"; sourceTree = "<group>"; };
 		1725B0DA7B2A4DDC3C916669D074D7EA /* Pods-MSRequest2_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSRequest2_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1B13D267EBC7250A9EBB2FB70C7E6B7C /* MSRequest2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSRequest2-prefix.pch"; sourceTree = "<group>"; };
 		206EEEEDB445148615FE5E85B0BFA1DD /* Pods-MSRequest2_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSRequest2_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		254A060B807124446AEF83842FB314E6 /* Pods-MSRequest2_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSRequest2_Example.release.xcconfig"; sourceTree = "<group>"; };
 		291416624E68D707FF3627DB253CB054 /* Pods-MSRequest2_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MSRequest2_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2BD821E626A2C54F530B4E273F906992 /* Pods_MSRequest2_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MSRequest2_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BD821E626A2C54F530B4E273F906992 /* Pods_MSRequest2_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MSRequest2_Tests.framework; path = "Pods-MSRequest2_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EAD521FE584446DD36E0DB366419344 /* Pods-MSRequest2_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MSRequest2_Tests-resources.sh"; sourceTree = "<group>"; };
 		30CF96418AFD498ABABED3300486A4AC /* Pods-MSRequest2_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MSRequest2_Example-resources.sh"; sourceTree = "<group>"; };
-		30EA9185C6679360C614BBC87F939922 /* Pods_MSRequest2_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MSRequest2_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30EA9185C6679360C614BBC87F939922 /* Pods_MSRequest2_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MSRequest2_Example.framework; path = "Pods-MSRequest2_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A00000AE3F89FBB94F8C584806E112C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		42F89F80C6021EAB0395A9081692F276 /* MSRequest2.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = MSRequest2.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		47E24E23379C748C949D11A2CE73F641 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		560EC913D1C0C77DC9F95DBADB454CE6 /* Pods-MSRequest2_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MSRequest2_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5FED776F9ED4268A92276A8DB49AC92C /* MSRequest2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MSRequest2.xcconfig; sourceTree = "<group>"; };
-		69C52F4021AD44C600DB4D8E /* MSRequest2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MSRequest2.swift; path = MSRequest2/Classes/MSRequest2.swift; sourceTree = "<group>"; };
-		7B4C747526DD83B2C25C3BD57E99C64F /* MSRequest2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSRequest2-prefix.pch"; sourceTree = "<group>"; };
+		7975C19DCEEACD4BEDA5A0D5EDF8F90F /* MSRequest2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSRequest2.swift; path = MSRequest2/Classes/MSRequest2.swift; sourceTree = "<group>"; };
 		7BBA19E6E01811978B56037F11915509 /* Pods-MSRequest2_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MSRequest2_Example-dummy.m"; sourceTree = "<group>"; };
+		86D81D05804CBF3CB3F92EDE62C6DE8F /* MSRequest2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MSRequest2.modulemap; sourceTree = "<group>"; };
 		8704DC0F2C9ECA7767F4BA43567A12AD /* Pods-MSRequest2_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSRequest2_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		8A1297DD0640ADD7F1CBEA5186ED3A18 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9A6E6AA5ECC705D2E936495614430C01 /* MSRequest2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MSRequest2.modulemap; sourceTree = "<group>"; };
-		A6BF77D4FCB75596208F30FBD75BE317 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A436D04DE7D2A074C1EF2B5DE881C781 /* MSRequest2.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MSRequest2.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A9D1A0B5A071E2C4BAEBC3DE3B64CC2F /* MSRequest2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSRequest2-umbrella.h"; sourceTree = "<group>"; };
 		AAEB6E99BEB0D6999555EAECEFC98DDF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B283DB48B7991CC97691477211C886C5 /* Pods-MSRequest2_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSRequest2_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B997A7C51B6853CCB343F0C62ECB3481 /* Pods-MSRequest2_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MSRequest2_Tests-umbrella.h"; sourceTree = "<group>"; };
-		BA136F6DA7A4E2F137163F59485D6D8C /* MSRequest2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MSRequest2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA136F6DA7A4E2F137163F59485D6D8C /* MSRequest2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MSRequest2.framework; path = MSRequest2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBD6E8EE482CD24853B69D6024F2FE20 /* Pods-MSRequest2_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MSRequest2_Tests.modulemap"; sourceTree = "<group>"; };
+		BE8EB8A4611937DEF5C9167499FB2CBB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C00058650033D9BD60F54494A3CFE9E3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8B4485146131AE134FB27F2E19F17EC /* MSRequest2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MSRequest2.xcconfig; sourceTree = "<group>"; };
 		DA714613AC2CF4D23E376AADD987A706 /* Pods-MSRequest2_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MSRequest2_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E249872598F4A09FEE384FE61C491E9B /* Pods-MSRequest2_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MSRequest2_Tests-dummy.m"; sourceTree = "<group>"; };
-		E514697E24B7528341255A6D5ADF4CBE /* MSRequest2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MSRequest2-dummy.m"; sourceTree = "<group>"; };
+		F5758337BFE5CC554FCA767F7BF9761A /* MSRequest2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MSRequest2-dummy.m"; sourceTree = "<group>"; };
 		F7380B2B52540463684A08DA78AE93A9 /* Pods-MSRequest2_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MSRequest2_Example-frameworks.sh"; sourceTree = "<group>"; };
+		FDC3B437CF9958D7B7E1AF1180035A52 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +102,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E7798D74B6EA8803E90E98940D180FE /* MSRequest2 */ = {
+			isa = PBXGroup;
+			children = (
+				7975C19DCEEACD4BEDA5A0D5EDF8F90F /* MSRequest2.swift */,
+				540F513C7141634E9B62B04102DE15CD /* Pod */,
+				9A54562C068E037D42F4BA37B84997BA /* Support Files */,
+			);
+			name = MSRequest2;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		540F513C7141634E9B62B04102DE15CD /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BE8EB8A4611937DEF5C9167499FB2CBB /* LICENSE */,
+				A436D04DE7D2A074C1EF2B5DE881C781 /* MSRequest2.podspec */,
+				FDC3B437CF9958D7B7E1AF1180035A52 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,15 +142,15 @@
 			);
 			sourceTree = "<group>";
 		};
-		9D252FC63F42F9E32D7D60EDAA491219 /* Support Files */ = {
+		9A54562C068E037D42F4BA37B84997BA /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A6BF77D4FCB75596208F30FBD75BE317 /* Info.plist */,
-				9A6E6AA5ECC705D2E936495614430C01 /* MSRequest2.modulemap */,
-				5FED776F9ED4268A92276A8DB49AC92C /* MSRequest2.xcconfig */,
-				E514697E24B7528341255A6D5ADF4CBE /* MSRequest2-dummy.m */,
-				7B4C747526DD83B2C25C3BD57E99C64F /* MSRequest2-prefix.pch */,
-				0DDE62A8F4C7CCBD0EF7E551299099FB /* MSRequest2-umbrella.h */,
+				C00058650033D9BD60F54494A3CFE9E3 /* Info.plist */,
+				86D81D05804CBF3CB3F92EDE62C6DE8F /* MSRequest2.modulemap */,
+				C8B4485146131AE134FB27F2E19F17EC /* MSRequest2.xcconfig */,
+				F5758337BFE5CC554FCA767F7BF9761A /* MSRequest2-dummy.m */,
+				1B13D267EBC7250A9EBB2FB70C7E6B7C /* MSRequest2-prefix.pch */,
+				A9D1A0B5A071E2C4BAEBC3DE3B64CC2F /* MSRequest2-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/MSRequest2";
@@ -156,20 +177,9 @@
 		AC0CFFF5C01EAA0876AB4B9F5E0FE83C /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B79613C5112BA27C1E117111966023DF /* MSRequest2 */,
+				0E7798D74B6EA8803E90E98940D180FE /* MSRequest2 */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		B79613C5112BA27C1E117111966023DF /* MSRequest2 */ = {
-			isa = PBXGroup;
-			children = (
-				69C52F4021AD44C600DB4D8E /* MSRequest2.swift */,
-				E4A423A94F7E227FF8EA192C24753665 /* Pod */,
-				9D252FC63F42F9E32D7D60EDAA491219 /* Support Files */,
-			);
-			name = MSRequest2;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -215,16 +225,6 @@
 				CBFD69A6E517DB0434D8C45609923C6F /* Pods-MSRequest2_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		E4A423A94F7E227FF8EA192C24753665 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				47E24E23379C748C949D11A2CE73F641 /* LICENSE */,
-				42F89F80C6021EAB0395A9081692F276 /* MSRequest2.podspec */,
-				8A1297DD0640ADD7F1CBEA5186ED3A18 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,7 +297,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 59543AED15BDA517C2665A572AF3B053 /* Build configuration list for PBXNativeTarget "MSRequest2" */;
 			buildPhases = (
-				38BDDFA02FECEE41406082B12AF1AF5C /* Sources */,
+				FD6E4DD0F04A544048618D9CC48C5EA8 /* Sources */,
 				9E49EBF7CADC8E4119FEF7CB3F25AE9B /* Frameworks */,
 				E1CE2292F738CCD4DB029A293B000619 /* Headers */,
 			);
@@ -339,15 +339,6 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		38BDDFA02FECEE41406082B12AF1AF5C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4867AE43560DD14E276439A8C7067F54 /* MSRequest2-dummy.m in Sources */,
-				69C52F4121AD44C600DB4D8E /* MSRequest2.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		656FF1B9B4833760DD781722DEB4CA65 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -361,6 +352,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABE3527EF50C87A06D2B32B23CCE42D1 /* Pods-MSRequest2_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD6E4DD0F04A544048618D9CC48C5EA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2367E9AC5ADABE68A32796D04D12F633 /* MSRequest2-dummy.m in Sources */,
+				44A3F50A53D3774E504E0F687D8C9442 /* MSRequest2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -551,7 +551,7 @@
 		};
 		91E475D252D103AFAAB62EEA39CA922B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5FED776F9ED4268A92276A8DB49AC92C /* MSRequest2.xcconfig */;
+			baseConfigurationReference = C8B4485146131AE134FB27F2E19F17EC /* MSRequest2.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -584,7 +584,7 @@
 		};
 		9DD8F92A3730723B40F788AC2683208A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5FED776F9ED4268A92276A8DB49AC92C /* MSRequest2.xcconfig */;
+			baseConfigurationReference = C8B4485146131AE134FB27F2E19F17EC /* MSRequest2.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
