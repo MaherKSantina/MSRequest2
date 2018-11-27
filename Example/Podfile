@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MSRequest2_Example' do
+  pod 'MSRequest2', :path => '../'
+
+  target 'MSRequest2_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
